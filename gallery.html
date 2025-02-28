@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Capture Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Capture Studio</h1>
+        </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+            </div>
+        </section>
+
+        <section class="gallery-intro">
+            <div class="container">
+                <p>Welcome to our gallery, a curated collection of our finest work across various photography genres. Each image represents our commitment to quality, creativity, and storytelling through visual art.</p>
+                
+                <p>Browse through our portfolio to get a sense of our style and approach. From intimate wedding moments to striking portraits and commercial projects, these photographs showcase the range and versatility of our work. If you connect with what you see, we'd love to discuss how we can create something equally special for you.</p>
+            </div>
+        </section>
+
+        <!-- This section uses CSS Flexbox -->
+        <section class="photo-gallery">
+            <div class="container">
+                <div class="gallery-categories">
+                    <button class="category-btn active">All</button>
+                    <button class="category-btn">Weddings</button>
+                    <button class="category-btn">Portraits</button>
+                    <button class="category-btn">Commercial</button>
+                    <button class="category-btn">Events</button>
+                </div>
+
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="A1images/weddingphotography.jpg" alt="Wedding photograph">
+                        <div class="gallery-overlay">
+                            <h4>Summer Wedding</h4>
+                            <p>Wedding Photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="A1images/executiveportrait.jpg" alt="Portrait photograph">
+                        <div class="gallery-overlay">
+                            <h4>Executive Portrait</h4>
+                            <p>Corporate Photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="A1images/productphotograph.jpg" alt="Product photograph">
+                        <div class="gallery-overlay">
+                            <h4>Product Launch</h4>
+                            <p>Commercial Photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="A1images/famportrait.jpg" alt="Family portrait">
+                        <div class="gallery-overlay">
+                            <h4>Family Session</h4>
+                            <p>Portrait Photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="A1images/eventphotography.jpg" alt="Event photograph">
+                        <div class="gallery-overlay">
+                            <h4>Corporate Gala</h4>
+                            <p>Event Photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="A1images/engagementphotography.jpg" alt="Engagement photograph">
+                        <div class="gallery-overlay">
+                            <h4>Engagement Session</h4>
+                            <p>Couple Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="client-testimonials">
+            <div class="container">
+                <h3>What Our Clients Say</h3>
+                <div class="testimonial">
+                    <p>"Capture Studio exceeded all our expectations. They captured our wedding day perfectly, and the photos bring back all the emotions every time we look at them."</p>
+                    <p class="client-name">— Emily & James</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Working with Capture Studio for our company's branding photos was a seamless experience. Professional, creative, and delivered exactly what we needed."</p>
+                    <p class="client-name">— Sarah T., Marketing Director</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Capture Studio</h3>
+                    <p>Aftab Nagar Avenue<br>Dhaka, Bangladesh 12345</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://facebook.com" target="_blank">Facebook</a>
+                        <a href="https://pinterest.com" target="_blank">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Capture Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
